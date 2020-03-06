@@ -11,32 +11,40 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
-  background-color: white;
-  padding-top: 40px;
 }
 
 .location {
-  display: block;
-  padding-top: 70px;
-  width: 100%;
+    background-color: lightgrey;
+    height: 70px;
+    border-bottom: 1px solid black;
+    padding: 10px;
 }
 
 .arrow {
-  padding-left: 90%;
+    float: right;
+    width: 10%;
+    padding-top: 10px;
+}
+
+.content {
+    float: left;
+    width: 80%;
+    padding-top: 10px;
+}
+.restaurant-list {
+  padding-top: 50px
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 18px;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 14px;
 }
 
-.arrow {
-  display: block;
-}
+
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
